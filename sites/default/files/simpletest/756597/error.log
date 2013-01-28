@@ -1,0 +1,22 @@
+[21-Jan-2013 04:17:27 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\drupal-7.19\includes\database\database.inc on line 2139
+[21-Jan-2013 04:17:27 UTC] PHP Stack trace:
+[21-Jan-2013 04:17:27 UTC] PHP   1. {main}() C:\wamp\www\drupal-7.19\index.php:0
+[21-Jan-2013 04:17:27 UTC] PHP   2. menu_execute_active_handler() C:\wamp\www\drupal-7.19\index.php:21
+[21-Jan-2013 04:17:27 UTC] PHP   3. call_user_func_array() C:\wamp\www\drupal-7.19\includes\menu.inc:517
+[21-Jan-2013 04:17:27 UTC] PHP   4. system_batch_page() C:\wamp\www\drupal-7.19\includes\menu.inc:517
+[21-Jan-2013 04:17:27 UTC] PHP   5. _batch_page() C:\wamp\www\drupal-7.19\modules\system\system.admin.inc:2358
+[21-Jan-2013 04:17:27 UTC] PHP   6. _batch_do() C:\wamp\www\drupal-7.19\includes\batch.inc:80
+[21-Jan-2013 04:17:27 UTC] PHP   7. _batch_process() C:\wamp\www\drupal-7.19\includes\batch.inc:161
+[21-Jan-2013 04:17:27 UTC] PHP   8. call_user_func_array() C:\wamp\www\drupal-7.19\includes\batch.inc:284
+[21-Jan-2013 04:17:27 UTC] PHP   9. _simpletest_batch_operation() C:\wamp\www\drupal-7.19\includes\batch.inc:284
+[21-Jan-2013 04:17:27 UTC] PHP  10. DrupalTestCase->run() C:\wamp\www\drupal-7.19\modules\simpletest\simpletest.module:177
+[21-Jan-2013 04:17:27 UTC] PHP  11. DrupalWebTestCase->setUp() C:\wamp\www\drupal-7.19\modules\simpletest\drupal_web_test_case.php:500
+[21-Jan-2013 04:17:27 UTC] PHP  12. module_enable() C:\wamp\www\drupal-7.19\modules\simpletest\drupal_web_test_case.php:1464
+[21-Jan-2013 04:17:27 UTC] PHP  13. drupal_get_schema() C:\wamp\www\drupal-7.19\includes\module.inc:454
+[21-Jan-2013 04:17:27 UTC] PHP  14. drupal_get_complete_schema() C:\wamp\www\drupal-7.19\includes\bootstrap.inc:2871
+[21-Jan-2013 04:17:27 UTC] PHP  15. cache_set() C:\wamp\www\drupal-7.19\includes\bootstrap.inc:2962
+[21-Jan-2013 04:17:27 UTC] PHP  16. DrupalDatabaseCache->set() C:\wamp\www\drupal-7.19\includes\cache.inc:147
+[21-Jan-2013 04:17:27 UTC] PHP  17. MergeQuery->execute() C:\wamp\www\drupal-7.19\includes\cache.inc:475
+[21-Jan-2013 04:17:27 UTC] PHP  18. UpdateQuery->execute() C:\wamp\www\drupal-7.19\includes\database\query.inc:1636
+[21-Jan-2013 04:17:27 UTC] PHP  19. DatabaseConnection->query() C:\wamp\www\drupal-7.19\includes\database\query.inc:1166
+[21-Jan-2013 04:17:27 UTC] PHP  20. DatabaseStatementBase->execute() C:\wamp\www\drupal-7.19\includes\database\database.inc:664

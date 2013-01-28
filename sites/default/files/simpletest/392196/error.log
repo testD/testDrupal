@@ -1,0 +1,22 @@
+[21-Jan-2013 08:07:09 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\drupal-7.19\includes\database\mysql\query.inc on line 28
+[21-Jan-2013 08:07:09 UTC] PHP Stack trace:
+[21-Jan-2013 08:07:09 UTC] PHP   1. {main}() C:\wamp\www\drupal-7.19\index.php:0
+[21-Jan-2013 08:07:09 UTC] PHP   2. menu_execute_active_handler() C:\wamp\www\drupal-7.19\index.php:21
+[21-Jan-2013 08:07:09 UTC] PHP   3. call_user_func_array() C:\wamp\www\drupal-7.19\includes\menu.inc:517
+[21-Jan-2013 08:07:09 UTC] PHP   4. system_batch_page() C:\wamp\www\drupal-7.19\includes\menu.inc:517
+[21-Jan-2013 08:07:09 UTC] PHP   5. _batch_page() C:\wamp\www\drupal-7.19\modules\system\system.admin.inc:2358
+[21-Jan-2013 08:07:09 UTC] PHP   6. _batch_do() C:\wamp\www\drupal-7.19\includes\batch.inc:80
+[21-Jan-2013 08:07:09 UTC] PHP   7. _batch_process() C:\wamp\www\drupal-7.19\includes\batch.inc:161
+[21-Jan-2013 08:07:09 UTC] PHP   8. call_user_func_array() C:\wamp\www\drupal-7.19\includes\batch.inc:284
+[21-Jan-2013 08:07:09 UTC] PHP   9. _simpletest_batch_operation() C:\wamp\www\drupal-7.19\includes\batch.inc:284
+[21-Jan-2013 08:07:09 UTC] PHP  10. DrupalTestCase->run() C:\wamp\www\drupal-7.19\modules\simpletest\simpletest.module:177
+[21-Jan-2013 08:07:09 UTC] PHP  11. SimpleTestBrowserTestCase->setUp() C:\wamp\www\drupal-7.19\modules\simpletest\drupal_web_test_case.php:500
+[21-Jan-2013 08:07:09 UTC] PHP  12. DrupalWebTestCase->setUp() C:\wamp\www\drupal-7.19\modules\simpletest\simpletest.test:334
+[21-Jan-2013 08:07:09 UTC] PHP  13. module_enable() C:\wamp\www\drupal-7.19\modules\simpletest\drupal_web_test_case.php:1464
+[21-Jan-2013 08:07:09 UTC] PHP  14. module_invoke() C:\wamp\www\drupal-7.19\includes\module.inc:484
+[21-Jan-2013 08:07:09 UTC] PHP  15. call_user_func_array() C:\wamp\www\drupal-7.19\includes\module.inc:833
+[21-Jan-2013 08:07:09 UTC] PHP  16. menu_enable() C:\wamp\www\drupal-7.19\includes\module.inc:833
+[21-Jan-2013 08:07:09 UTC] PHP  17. menu_rebuild() C:\wamp\www\drupal-7.19\modules\menu\menu.module:181
+[21-Jan-2013 08:07:09 UTC] PHP  18. _menu_navigation_links_rebuild() C:\wamp\www\drupal-7.19\includes\menu.inc:2714
+[21-Jan-2013 08:07:09 UTC] PHP  19. menu_link_save() C:\wamp\www\drupal-7.19\includes\menu.inc:2853
+[21-Jan-2013 08:07:09 UTC] PHP  20. InsertQuery_mysql->execute() C:\wamp\www\drupal-7.19\includes\menu.inc:3125

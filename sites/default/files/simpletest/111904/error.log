@@ -1,0 +1,21 @@
+[21-Jan-2013 07:34:26 UTC] PHP Fatal error:  Maximum execution time of 30 seconds exceeded in C:\wamp\www\drupal-7.19\includes\database\database.inc on line 2139
+[21-Jan-2013 07:34:26 UTC] PHP Stack trace:
+[21-Jan-2013 07:34:26 UTC] PHP   1. {main}() C:\wamp\www\drupal-7.19\index.php:0
+[21-Jan-2013 07:34:26 UTC] PHP   2. menu_execute_active_handler() C:\wamp\www\drupal-7.19\index.php:21
+[21-Jan-2013 07:34:26 UTC] PHP   3. call_user_func_array() C:\wamp\www\drupal-7.19\includes\menu.inc:517
+[21-Jan-2013 07:34:26 UTC] PHP   4. system_batch_page() C:\wamp\www\drupal-7.19\includes\menu.inc:517
+[21-Jan-2013 07:34:26 UTC] PHP   5. _batch_page() C:\wamp\www\drupal-7.19\modules\system\system.admin.inc:2358
+[21-Jan-2013 07:34:26 UTC] PHP   6. _batch_do() C:\wamp\www\drupal-7.19\includes\batch.inc:80
+[21-Jan-2013 07:34:26 UTC] PHP   7. _batch_process() C:\wamp\www\drupal-7.19\includes\batch.inc:161
+[21-Jan-2013 07:34:26 UTC] PHP   8. call_user_func_array() C:\wamp\www\drupal-7.19\includes\batch.inc:284
+[21-Jan-2013 07:34:26 UTC] PHP   9. _simpletest_batch_operation() C:\wamp\www\drupal-7.19\includes\batch.inc:284
+[21-Jan-2013 07:34:26 UTC] PHP  10. DrupalTestCase->run() C:\wamp\www\drupal-7.19\modules\simpletest\simpletest.module:177
+[21-Jan-2013 07:34:26 UTC] PHP  11. DrupalErrorCollectionUnitTest->setUp() C:\wamp\www\drupal-7.19\modules\simpletest\drupal_web_test_case.php:500
+[21-Jan-2013 07:34:26 UTC] PHP  12. DrupalWebTestCase->setUp() C:\wamp\www\drupal-7.19\modules\simpletest\tests\common.test:2107
+[21-Jan-2013 07:34:26 UTC] PHP  13. module_enable() C:\wamp\www\drupal-7.19\modules\simpletest\drupal_web_test_case.php:1464
+[21-Jan-2013 07:34:26 UTC] PHP  14. system_list_reset() C:\wamp\www\drupal-7.19\includes\module.inc:447
+[21-Jan-2013 07:34:26 UTC] PHP  15. cache_clear_all() C:\wamp\www\drupal-7.19\includes\module.inc:229
+[21-Jan-2013 07:34:26 UTC] PHP  16. DrupalDatabaseCache->clear() C:\wamp\www\drupal-7.19\includes\cache.inc:176
+[21-Jan-2013 07:34:26 UTC] PHP  17. DeleteQuery->execute() C:\wamp\www\drupal-7.19\includes\cache.inc:541
+[21-Jan-2013 07:34:26 UTC] PHP  18. DatabaseConnection->query() C:\wamp\www\drupal-7.19\includes\database\query.inc:857
+[21-Jan-2013 07:34:26 UTC] PHP  19. DatabaseStatementBase->execute() C:\wamp\www\drupal-7.19\includes\database\database.inc:664
